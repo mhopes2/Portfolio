@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Michelle's Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script async type ='text/javascript' src='javascript/portfolio.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id='main'>
+        <ul class="side-nav blue-grey" id="mobile-demo">
+            <li><p class='navlink whitefont center-align navtitle'>Navigation</p></li>
+            <li><div class="divider"></div></li>
+            <li><a class='navlink whitefont aboutbtn' href="#" onclick="$('.button-collapse').sideNav('hide');">About</a></li>
+            <li><a class='navlink whitefont techbtn' href="#" onclick="$('.button-collapse').sideNav('hide');">Technology</a></li>
+            <li><a class='navlink whitefont projbtn' href="#" onclick="$('.button-collapse').sideNav('hide');">Projects</a></li>
+            <li><a class='navlink whitefont contactbtn' href="#" onclick="$('.button-collapse').sideNav('hide');">Contact</a></li>
+        </ul>
+        <div class='navbar-fixed'>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a id='getoutbtn' href="#!" class='blackfont'>Community Fitness App</a></li>
+            </ul>
+        <div class='navbar-fixed'>
+            <nav class='noboxshadow banner-hidden'>
+                <div class="nav-wrapper clear">
+                    <a href="#" class="brand-logo raleway hide-on-med-and-down">Michelle Song</span></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">view_list</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class='navlink blackfont aboutbtn' href="#">About <i class="material-icons left">perm_identity</i></a></li>
+                        <li><a class='navlink blackfont techbtn' href="#" >Technology <i class='material-icons left'>settings</i></a></li>
+                        <li><a class='navlink blackfont projbtn dropdown-button' href="#" data-activates="dropdown1">Projects <i class="material-icons right">arrow_drop_down</i><i class='material-icons left'>mode_edit</i></a></li>
+                        <li><a class='navlink blackfont contactbtn' href="#">Contact <i class="material-icons left">email</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    <div class="container">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>Hello! My name is Michelle Song and I am a Full Stack Web Developer. My brother, who is also in the tech industry, suggested I try my hand at programming as he knew my passion to build and I instantly fell in love with it. I haven't regretted that decision even for a moment and I'm eager to continue learning more!</p><br>
+            <p>Aside from coding, I enjoy relaxing and watching Netflix with some aromatherapy candles.</p>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h1>Projects</h1>
+            <div>
+                <h2>Community Fitness App</h2>
+                <p>Built With: Python | Flask | Google Maps API</p>
+                <p>A web app design that allows local users to create and join events for a workout session. Users are able to view the event and it's exact location displayed using Google Maps API and join or unjoin the event. Users are also able to message one another within the app. </p>
+        </div>
+        <div>
+            <h1>Contact Me</h1>
+            <div>
+                <a href="mailto:mksh0725@gmail.com"><img src="" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
