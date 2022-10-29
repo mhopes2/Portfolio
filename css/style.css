@@ -190,12 +190,10 @@ nav{
     height: auto;
     /*border-bottom-style: groove;*/
 }
-.projgif{
-    box-shadow: 10px 10px 5px #006D65;
+.projimg{
+    box-shadow: 10px 10px 5px black;
     border-radius: 7px;
-}
-.iosimg{
-    width: 100%;
+    width: 10cm;
 }
 .projtext{
     margin-bottom: 5%;
